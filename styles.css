@@ -1,0 +1,220 @@
+body {
+  font-family: 'Source Serif Pro', serif;
+  /* The image used */
+  background-image: url(https://wallpaperaccess.com/full/314552.jpg);
+    /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: #9fbff1;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: red;
+}
+
+#top {
+  background-image: url(https://www.pixelstalk.net/wp-content/uploads/2016/04/Minimalist-wallpapers-HD-pictures-download.jpg);
+  background-position-x: center;
+  background-position-y: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  width: 100%;
+  border-radius: 15px;
+  opacity: 90%;
+}
+
+#nav {
+  top: 0px;
+  position: fixed;
+  margin: 0 auto;
+  z-index: 1;
+  text-shadow: -1px 1px 0 #000,  1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
+}
+
+.navlink {
+  text-decoration: none;
+  transition: all 0.1s ease-out;
+  display: inline-block;
+  text-align: center;
+  font-family: 'Courier Prime', sans-serif;
+  font-weight: 400;
+  padding: 5px;
+  margin: 2px 0;
+  border: 1px solid black;
+  border-style: solid;
+  text-decoration: none;
+  background-color: rgba(100,100,100,60%);
+  width: 100%;
+}
+
+.navlink:hover {
+  color: #5495ff;
+  cursor: pointer;
+  border: 2px solid black;
+  background-color: rgba(150,150,150,75%);
+  border-bottom-right-radius: 50px;
+  border-top-right-radius: 50px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.navlink:active {
+  color: rgba(150,75,25,90%);
+  font-weight: 900;
+  border: 3px solid black;
+  border-radius: 50px;
+  background-color: rgba(200,200,200,90%);
+  text-decoration: none;
+}
+
+#header1 {
+  font-family: 'Hurricane', cursive;
+  font-size: 100px;
+  text-align: center;
+  color: white;
+  text-shadow: -1px 1px 0 #000,  1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
+}
+
+.mainheader2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 40px;
+}
+
+.container {
+  font-family: 'Courier Prime';
+  border: 2px solid #a2a2a6;
+  margin: 10px 15%;
+  border-radius: 25px;
+  background-color: rgba(255,255,255,90%);
+}
+
+.container .color-container {
+  color: rgba(255, 255, 255, 80%);
+  text-align: center;
+  margin: 10px 1.8%;
+}
+
+.color-panel {
+  display: inline-block;
+  width: 15%;
+  border: 5px solid rgba(0,0,0,30%);
+  border-radius: 20px;
+}
+
+.rawsienna {
+  background-color: rgba(192, 133, 82, 100%);
+}
+
+.huntergreen {
+  background-color: rgba(67, 100, 54, 100%);
+}
+
+.caputmortuum {
+  background-color: rgba(94, 48, 35, 100%);
+}
+
+.russet {
+  background-color: rgba(137, 87, 55, 100%);
+}
+
+.tumbleweed {
+  background-color: rgba(218, 180, 157, 100%);
+}
+
+.font-container {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+.font-panel {
+  display: inline-block;
+  width: 40%;
+}
+
+.font-label {
+  text-decoration: underline;
+  font-size: x-large;
+}
+
+.regular {
+  font-style: normal;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.hurricane {
+  font-family: 'Hurricane', cursive;
+}
+
+.sourceserifpro {
+  font-family: 'Source Serif Pro', serif;
+}
+
+.raleway {
+  font-family: 'Raleway', sans-serif;
+}
+
+.courierprime {
+  font-family: 'Courier Prime', monospace;
+}
+
+.text-container {
+  text-align: center;
+}
+
+.text-panel {
+  padding: 10px;
+}
+
+.text-panel h1 {
+  font-weight: 700;
+  font-size: 32px;
+  font-family: 'Source Serif Pro', sans-serif;
+}
+
+.text-panel h2 {
+  font-weight: 500;
+  font-size: 18px;
+  font-family: 'Raleway', serif;
+}
+
+.text-panel p {
+  font-weight: 400;
+  font-size: 14px;
+  font-family: 'Courier Prime', monospace;
+}
+
+.credits {
+  color: white;
+  text-shadow: -1px 1px 0 #000,  1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
+  text-align: center;
+}
+
+#myname {
+  font-size: 25px;
+  font-family: 'Hurricane';
+}
+
+.container .mainheader2 {
+  text-align: center;
+}
